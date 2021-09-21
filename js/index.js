@@ -7,7 +7,17 @@
 // когда запускается таймер, кнопка start становиться не активна
 // кнопка стоп снимает таймер stop
 
-import colors from "/data/data.js"
+// import colors from "/data/data.js";
+
+const colors = [
+  '#FFFFFF',
+  '#2196F3',
+  '#4CAF50',
+  '#FF9800',
+  '#009688',
+  '#795548',
+];
+
 // let indexOfColor = 0;
 let timerId = null;
 
